@@ -28,7 +28,7 @@ EspMQTTClient mqtt(
   1883                  // MQTT Broker server port
 );
 
-char *jsonTemplate = 
+const char *jsonTemplate = 
 "{                    \
 \"liters\": %d,       \
 \"counter\" : %d,     \

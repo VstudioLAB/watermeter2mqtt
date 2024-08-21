@@ -10,7 +10,7 @@ void show_in_hex_array(uint8_t* buffer, size_t len);
 void show_in_hex_one_line(uint8_t* buffer, size_t len);
 void show_in_hex_one_line_GET(uint8_t* buffer, size_t len);
 void show_in_bin(uint8_t* buffer, size_t len);
-void echo_debug(T_BOOL l_flag, char *fmt, ...);
+void echo_debug(T_BOOL l_flag, const char *fmt, ...);
 void print_time(void);
 
 

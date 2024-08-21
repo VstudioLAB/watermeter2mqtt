@@ -59,7 +59,7 @@ void show_in_bin(uint8_t* buffer, size_t len)
 	printf("\n");
 }
 
-void echo_debug(T_BOOL l_flag,char *fmt, ...)
+void echo_debug(T_BOOL l_flag,const char *fmt, ...)
 {
  if (l_flag)
  {

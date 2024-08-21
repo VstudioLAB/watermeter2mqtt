@@ -59,5 +59,8 @@ typedef unsigned char T_BOOL;       //1 octets
 #define METER_YEAR              15
 #define METER_SERIAL            886451
 
+#define METER_COLD_YEAR              15
+#define METER_COLD_SERIAL            886451
+
 
 
